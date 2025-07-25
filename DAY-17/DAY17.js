@@ -1,5 +1,5 @@
-                               //DAYS 17 JAVASCRIPT
-//DOM(Document object Model)
+                                            //DAYS 17 JAVASCRIPT
+
 let arr=[1,2,3,4];
 let arr1=arr.reduce((a,b)=>a+b);
 console.log(arr1);

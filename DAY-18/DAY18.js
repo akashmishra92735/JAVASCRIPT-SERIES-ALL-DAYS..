@@ -1,5 +1,4 @@
 //                                           DAY 18 JAVASCRIPT
-/*
 function clock(){
     let date=new Date();
     let h=date.getHours();
@@ -17,9 +16,8 @@ function clock(){
 }
 clock();
 
-*/
 
-/*
+
 function clock() {
   let time = new Date().toLocaleTimeString("en-US");
   document.getElementById("Myclock").innerHTML = time;
@@ -40,13 +38,7 @@ function clock() {
     // 12-hour format conversion
     h = h % 12;
     h = h ? h : 12;
-
-    // Leading zero
-    h = h < 10 ? "0" + h : h;
-    m = m < 10 ? "0" + m : m;
-    s = s < 10 ? "0" + s : s;
     month = month < 10 ? "0" + month : month;
-
     let time = "Month: " + month + " | " + h + ":" + m + ":" + s + " " + ampm;
     document.getElementById("Myclock").innerHTML = time;
 
@@ -54,7 +46,7 @@ function clock() {
 }
 
 clock();
-*/
+
 function changeimg() {
   let img = document.getElementById("myImage");
   img.src ="./HCL.jpg";
